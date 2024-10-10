@@ -1,5 +1,36 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-jedisct1-go-minisign (0.2.1-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream release
+  * Add Multi-Arch: foreign
+  * Debhelper to v13
+  * watch file to v4
+  * Standards-Version to 4.6.0.1
+  * Update debian copyright year
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Eric Dorland <eric@debian.org>  Sun, 16 Jan 2022 23:04:48 -0500
+
+golang-github-jedisct1-go-minisign (0.1.0-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository, Repository-Browse.
+
+  [ Eric Dorland ]
+  * Standards-Version to 4.5.0.2
+  * Add Rules-Requires-Root: no
+
+ -- Eric Dorland <eric@debian.org>  Sat, 27 Jun 2020 23:27:23 -0400
+
+golang-github-jedisct1-go-minisign (0.1.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Use upstream-vcs-tag with gbp
+  * Upgrade to new-style debhelper-compat 12
+  * Standards-Version to 4.4.0.1
+
+ -- Eric Dorland <eric@debian.org>  Sun, 28 Jul 2019 13:57:44 -0400
+
+golang-github-jedisct1-go-minisign (0.0~git20180113.f404c07-1) unstable; urgency=medium
+
+  * Initial release (Closes: #894591)
+
+ -- Eric Dorland <eric@debian.org>  Sun, 01 Apr 2018 21:28:11 -0400
